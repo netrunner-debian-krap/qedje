@@ -1,0 +1,36 @@
+Source: qedje
+Priority: optional
+Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
+XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
+Build-Depends: debhelper (>= 5), cdbs, qt4-qmake, libqt4-dev, libqzion-dev, libeet-dev
+Standards-Version: 3.8.0
+Section: libs
+Homepage: http://dev.openbossa.org/trac/qedje
+
+Package: libqedje-dev
+Section: libdevel
+Architecture: any
+Depends: libqedje0 (= ${binary:Version}), libqzion-dev, libeet-dev
+Description: UI interface library which separates design from logic
+ QEdje extends the Qt toolkit with the flexibility of the Edje
+ declarative language.
+ .
+ Edje is a declarative language that simplifies the development of
+ complex interfaces separating the UI design from the application
+ logic, by providing animations, layouts and simple scripts in a very
+ small memory footprint.
+ .
+ This package contains the development header files.
+
+Package: libqedje0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: UI interface library which separates design from logic
+ QEdje extends the Qt toolkit with the flexibility of the Edje
+ declarative language.
+ .
+ Edje is a declarative language that simplifies the development of
+ complex interfaces separating the UI design from the application
+ logic, by providing animations, layouts and simple scripts in a very
+ small memory footprint.

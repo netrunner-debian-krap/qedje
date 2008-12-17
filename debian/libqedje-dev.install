@@ -1,0 +1,4 @@
+usr/include/*
+usr/lib/lib*.so
+usr/lib/libqedje.prl
+usr/lib/pkgconfig/qedje.pc
