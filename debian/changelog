@@ -1,5 +1,7 @@
 qedje (0.3.0-0r1) UNRELEASED; urgency=low
 
   * Initial release.
+    - Based on ubuntu
+      * Fix prl and pkg-config file generation
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Dec 2008 12:47:54 +0200
