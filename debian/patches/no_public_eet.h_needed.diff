@@ -1,0 +1,13 @@
+This file is not used by the public headers 
+and this also kills any requirement of qedje-dev to depend on libeet-dev
+
+--- a/src/qedje.h
++++ b/src/qedje.h
+@@ -20,7 +20,6 @@
+ #ifndef __QEDJE_H__
+ #define __QEDJE_H__
+ 
+-#include <Eet.h>
+ #include <QtCore>
+ #include <QtGui>
+ 

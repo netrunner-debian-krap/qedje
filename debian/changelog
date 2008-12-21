@@ -1,7 +1,12 @@
-qedje (0.3.0-0r1) UNRELEASED; urgency=low
+qedje (0.3.0-0r2) UNRELEASED; urgency=low
 
   * Initial release.
-    - Based on ubuntu
-      * Fix prl and pkg-config file generation
+    - Based on ubuntu, thanks
+
+  +++ Changes by Sune Vuorela:
+
+  * Fix prl and pkg-config file generation
+  * Fix public header and -dev package dependencies
+  * Lintian cleanups
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Dec 2008 12:47:54 +0200
