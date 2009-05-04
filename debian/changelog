@@ -1,3 +1,9 @@
+qedje (0.4.0-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 May 2009 10:59:14 +0200
+
 qedje (0.3.0-2) unstable; urgency=low
 
   * Upload to unstable.
