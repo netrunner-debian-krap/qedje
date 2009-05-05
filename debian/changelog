@@ -1,6 +1,8 @@
 qedje (0.4.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Update homepage.
+  * Bump Standards-Version from 3.8.0 to 3.8.1 (no changes needed).
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 May 2009 10:59:14 +0200
 

@@ -1,11 +1,12 @@
 Source: qedje
+Section: libs
 Priority: optional
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: debhelper (>= 5), cdbs, qt4-qmake, libqt4-dev, libqzion-dev, libeet-dev, quilt
-Standards-Version: 3.8.0
-Section: libs
-Homepage: http://dev.openbossa.org/trac/qedje
 Uploaders: Jonathan Riddell <jriddell@ubuntu.com>, Sune Vuorela <debian@pusling.com>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
+Build-Depends: cdbs, debhelper (>= 5), quilt,
+ libqt4-dev, libqzion-dev, libeet-dev
+Standards-Version: 3.8.1
+Homepage: http://code.openbossa.org/projects/qedje
 
 Package: libqedje-dev
 Section: libdevel
