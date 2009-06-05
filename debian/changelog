@@ -1,8 +1,20 @@
 qedje (0.4.0-1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release. (Closes: #526853)
+
+  +++ Changes by Fathi Boudra:
+
   * Update homepage.
   * Bump Standards-Version from 3.8.0 to 3.8.1 (no changes needed).
+
+  +++ Changes by George Kiagiadakis:
+
+  * Switch to cmake.
+  * Update installed files.
+  * Update compat to 7.
+  * Update (build-)dependency on libqzion-dev to version 0.4.0.
+  * Remove patch no_public_eet.h_needed.diff (applied upstream).
+  * Remove build dependency on quilt as there are no patches to apply.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 May 2009 10:59:14 +0200
 
