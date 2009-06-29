@@ -1,4 +1,4 @@
-qedje (0.4.0-1) UNRELEASED; urgency=low
+qedje (0.4.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release. (Closes: #526853)
 
@@ -16,7 +16,7 @@ qedje (0.4.0-1) UNRELEASED; urgency=low
   * Remove patch no_public_eet.h_needed.diff (applied upstream).
   * Remove build dependency on quilt as there are no patches to apply.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 May 2009 10:59:14 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2009 15:15:51 +0300
 
 qedje (0.3.0-2) unstable; urgency=low
 
