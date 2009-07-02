@@ -4,14 +4,14 @@ Priority: optional
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Jonathan Riddell <jriddell@ubuntu.com>, Sune Vuorela <debian@pusling.com>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
 Build-Depends: cdbs, debhelper (>= 7), cmake,
- libqt4-dev, libqzion-dev (>= 0.4.0), libeet-dev
+ libqt4-dev, libqzion-dev (>= 0.4.0), libeet-dev, quilt
 Standards-Version: 3.8.1
 Homepage: http://code.openbossa.org/projects/qedje
 
 Package: libqedje-dev
 Section: libdevel
 Architecture: any
-Depends: libqedje0 (= ${binary:Version}), libqzion-dev (>= 0.4.0), ${misc:Depends}
+Depends: libqedje0a (= ${binary:Version}), libqzion-dev (>= 0.4.0), ${misc:Depends}
 Description: UI interface library which separates design from logic
  QEdje extends the Qt toolkit with the flexibility of the Edje
  declarative language.
@@ -23,7 +23,7 @@ Description: UI interface library which separates design from logic
  .
  This package contains the development header files.
 
-Package: libqedje0
+Package: libqedje0a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}

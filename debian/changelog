@@ -1,6 +1,13 @@
-qedje (0.4.0-0r1) UNRELEASED; urgency=low
+qedje (0.4.0+lgpl-0r1) experimental; urgency=low
 
   * New upstream release. (Closes: #526853)
+
+  +++ Changes by Sune Vuorela:
+
+  * Take tarball based off 3b337c416fb2dc495011fc044dae832cd898d548, as this
+    includes a relicense to lgpl.
+  * Adapt copyright file
+  * Bump soname. abi has changed. this is krap. Use quilt to manage it.
 
   +++ Changes by Fathi Boudra:
 
@@ -16,7 +23,7 @@ qedje (0.4.0-0r1) UNRELEASED; urgency=low
   * Remove patch no_public_eet.h_needed.diff (applied upstream).
   * Remove build dependency on quilt as there are no patches to apply.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2009 15:15:51 +0300
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2009 15:15:51 +0300
 
 qedje (0.3.0-2) unstable; urgency=low
 
