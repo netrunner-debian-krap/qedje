@@ -1,7 +1,8 @@
-qedje (0.4.0+lgpl-3) unstable; urgency=low
+qedje (0.4.0+lgpl-3) UNRELEASED; urgency=low
 
-  * Bumped to standard version 3.8.3, placed README.source for quilt
-    and manipulated last changelog date to 1 second later.
+  * Bumped to standard version 3.8.3:
+    - Placed README.source for quilt.
+    - Manipulated last changelog date to 1 second later.
 
  -- Karl Ferdinand Ebert <kfebert@gmail.com>  Tue, 29 Sep 2009 20:30:38 +0200
 
