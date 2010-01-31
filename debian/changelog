@@ -1,10 +1,16 @@
 qedje (0.4.0+lgpl-3) UNRELEASED; urgency=low
 
+  [ Karl Ferdinand Ebert ]
   * Bumped to standard version 3.8.3:
     - Placed README.source for quilt.
     - Manipulated last changelog date to 1 second later.
 
- -- Karl Ferdinand Ebert <kfebert@gmail.com>  Tue, 29 Sep 2009 20:30:38 +0200
+  [ Ana Beatriz Guerrero Lopez ]
+  * Fix FTFBS with newer cmake. Generate file qedje.pc explicitly
+    in the directory where is later read from. Patch fix_dotpc.diff.
+    (Closes: #562302)
+
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2009 15:15:52 +0300
 
 qedje (0.4.0+lgpl-2) unstable; urgency=low
 
