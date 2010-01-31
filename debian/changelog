@@ -10,7 +10,7 @@ qedje (0.4.0+lgpl-3) unstable; urgency=low
     in the directory where is later read from. Patch fix_dotpc.diff.
     (Closes: #562302)
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2009 15:15:52 +0300
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jan 2010 22:03:00 +0100
 
 qedje (0.4.0+lgpl-2) unstable; urgency=low
 
